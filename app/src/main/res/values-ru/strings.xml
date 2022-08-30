@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Тест кнопок</string>
+    <string name="login">Логин</string>
+    <string name="invalid_email_message">Неверный email</string>
+    <string name="valid_email_message">Верный email</string>
+    <string name="agreement_full_text">Я принимаю условия использования и политику кофеденциальности</string>
+    <string name="confidential_info">условия использования</string>
+    <string name="privacy_policy">политику кофеденциальности</string>
+</resources>

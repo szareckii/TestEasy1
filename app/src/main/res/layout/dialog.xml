@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingStart="@dimen/small_padding"
+            android:paddingTop="@dimen/small_padding"
+            android:paddingEnd="@dimen/small_padding"
+            android:text="@string/attention"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+        <ImageButton
+            android:id="@+id/closeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:contentDescription="@string/close"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/small_padding"
+        android:text="@string/service_is_unavailable"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+</LinearLayout>

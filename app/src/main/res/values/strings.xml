@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="login">Login</string>
+    <string name="invalid_email_message">Invalid_email_message</string>
+    <string name="valid_email_message">Valid_email_message</string>
+    <string name="agreement_full_text">I agree with terms of use and privacy policy</string>
+    <string name="confidential_info">terms of use</string>
+    <string name="privacy_policy">privacy policy</string>
+    <string name="attention">Attention</string>
+    <string name="service_is_unavailable">Service is unavailable</string>
+    <string name="close">Close</string>
+
+</resources>
